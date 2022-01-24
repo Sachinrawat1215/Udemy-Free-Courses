@@ -1,4 +1,4 @@
-fetch("http://udemy-backend-api.herokuapp.com/").then(response => response.json()).then((data) => {
+fetch("https://udemy-backend-api.herokuapp.com/").then(response => response.json()).then((data) => {
     let title = data[0];
     title.shift();
     title.shift();
